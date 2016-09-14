@@ -5,7 +5,20 @@
 	<compatibility>
 		<version>7.0.0+</version>
 	</compatibility>
-	<theme id="user-profile-grow-theme" name="User Profile Grow Theme">
+	<theme id="user-profile" name="User Profile">
 		<template-extension>ftl</template-extension>
+		<settings>
+			<setting configurable="false" key="show-maximize-minimize-application-links" value="true" />
+		</settings>
+		<portlet-decorator id="barebone" name="Barebone">
+			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="decorate" name="Decorate">
+			<portlet-decorator-css-class>portlet-decorate</portlet-decorator-css-class>
+		</portlet-decorator>
+		<portlet-decorator id="solid" name="Solid">
+			<default-portlet-decorator>true</default-portlet-decorator>
+			<portlet-decorator-css-class>portlet-solid</portlet-decorator-css-class>
+		</portlet-decorator>
 	</theme>
 </look-and-feel>
