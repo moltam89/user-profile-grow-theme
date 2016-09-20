@@ -132,6 +132,10 @@ body {
 @import "assan/owl/theme.css";
 
 $primary-font:'Source Sans Pro', sans-serif;
+
+
 @import "grow/_variables.scss";
+
+@import "grow/_control_menu.scss";
 
 @import "grow/_product_menu.scss";
