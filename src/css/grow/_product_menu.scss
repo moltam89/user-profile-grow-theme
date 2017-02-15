@@ -121,6 +121,10 @@ body {
 }
 
 .product-menu {
+	h4.sidebar-header, .h4.sidebar-header {
+		margin-top: 0;
+	}
+
 	.sidebar-header {
 		background-color: $product-menu-header-bg !important;
 		background-image: none !important;
